@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
+
+.App {
+  text-align: center;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  background-color: aqua;
+  padding-top: 1px;
+  width: 100%;
+  margin-bottom: 8rem;
+}
+
+.header-title {
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  border-radius: 1rem;
+  padding: 8px;
+  padding-bottom: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.input {
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  box-sizing: border-box;
+  border: 2px solid black;
+  min-height: 5vh;
+}
+
+.output {
+  font-family: "Londrina Solid", cursive;
+}
+
+.emojiShow {
+  padding-top: 1.5rem;
+}
+.footer {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.5rem;
+  min-height: 10vh;
+  border-top-right-radius: 1rem;
+  font-family: "Londrina Solid", cursive;
+}
+
+.unordered {
+  list-style: none;
+  margin-right: 19px;
+}
+.inline {
+  display: inline;
+  padding: 1rem;
+}
+.inline a {
+  text-decoration: none;
+}
